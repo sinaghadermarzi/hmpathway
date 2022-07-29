@@ -1,0 +1,84 @@
+nodeID,type,label
+m1,met,Glucose in
+m2,met,MgATP
+m3,met,Glucose 6-phosphate
+m4,met,MgADP
+m5,met,Fructose 6-phosphate
+m6,met,Fructose 1,6-phosphate
+m7,met,Glyceraldehyde 3-phosphate
+m8,met,Dihydroxyacetone phosphate
+m9,met,Phosphate
+m10,met,NAD
+m11,met,1,3-Bisphospho-D-glycerate
+m12,met,NADH
+m13,met,3-Phospho-D-glycerate
+m14,met,2,3-Bisphospho-D-glycerate
+m15,met,2-Phospho-D-glycerate
+m16,met,Phosphoenolpyruvate
+m17,met,Pyruvate
+m18,met,Lactate
+m19,met,NADPH
+m20,met,NADP
+m21,met,AMP
+m22,met,ADP
+m23,met,Phospho-D-glucono-1,5-lactone
+m24,met,Ribulose 5-phosphate
+m25,met,Oxidized Glutathione
+m26,met,Reduced Glutathione
+m27,met,Xylulose 5-phosphate
+m28,met,Ribose 5-phosphate
+m29,met,Sedoheptulose 7-phosphate
+m30,met,Erythrose 4-phosphate
+m31,met,MgAMP
+m32,met,ATP
+m33,met,Mg
+m34,met,MgGri23P2
+m35,met,Protein1 bound NADP
+m36,met,Protein1
+m37,met,Protein1 bound NADPH
+m38,met,Protein2 bound NADP
+m39,met,Protein2
+m40,met,Protein2 bound NADPH
+e1,ext,PRPP
+e2,ext,External Lactate
+e3,ext,External Pyruvate
+e4,ext,Glucose outside
+e5,ext,Phosphate external
+r1,rev,Glucose transport
+r2,rev,Hexokinase
+r3,rev,Glucosephosphate isomerase
+r4,rev,Phosphofructokinase
+r5,rev,Aldolase
+r6,rev,Triosephosphate isomerase
+r7,rev,Glyceraldehyde 3-phosphate dehydrogenase
+r8,rev,Phosphoglycerate kinase
+r9,rev,Bisphosphoglycerate mutase
+r10,rev,Bisphosphoglycerate phosphatase
+r11,rev,Phosphoglycerate mutase
+r12,rev,Enolase
+r13,rev,Pyruvate kinase
+r14,rev,Lactate dehydrogenase
+r15,rev,Lactate dehydrogenase
+r16,rev,ATPase
+r17,rev,Adenylate kinase
+r18,rev,Glucose 6-phosphate dehydrogenase
+r19,rev,Phosphogluconate dehydrogenase
+r20,rev,Glutathione reductase
+r21,rev,Glutathione oxidation
+r22,rev,Phosphoribulose epimerase
+r23,rev,Ribose phosphate isomerase
+r24,rev,Transketolase 1
+r25,rev,Transaldolase
+r26,rev,Phosphoribosylpyrophosphate synthetase
+r27,rev,Transketolase 2
+r28,rev,Phosphate exchange
+r29,rev,Lactate exchange
+r30,rev,Pyruvate exchange
+r31,rev,MgATP dissociation
+r32,rev,MgADP dissociation
+r33,rev,MgAMP dissociation
+r34,rev,MgGri23P2 dissociation
+r35,rev,P1NADP dissociation
+r36,rev,P1NADPH dissociation
+r37,rev,P2NADP dissociation
+r38,rev,P2NADPH dissociation
