@@ -20,7 +20,9 @@ matrix, metabolites × reactions), `irrev_react` (irreversibility flags per reac
    a mapping (`coarse_net_info`).
 4. On request (`c`), `CalculateFluxModes` (efmtool) runs on the coarse model and the coarse EFMs are
    expanded back to fine-grained flux vectors. `Rank_Test.m` checks candidate flux vectors for the
-   rank, steady-state and irreversibility conditions of an EFM.
+   rank and irreversibility conditions of an EFM; its steady-state test (`metamodel.st * v == 0`) is
+   commented out and the corresponding result row is set to 1 unconditionally, so a vector that is not
+   at steady state still passes.
 
 `Partition_batch.m` is the same flow without the interactive prompt; `coarsen_reactions.m` is an
 older script version of step 3 that works on `sub_groups` (a cell array of metabolite index groups)
